@@ -59,3 +59,21 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+  # sync to Gitee
+  sync:
+    needs: build
+    steps:
+      - name: Sync to Gitee
+        uses: wearereqired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secret.GITEE_PRIVATE_KEY}}
+        with:
+          source-repo: git@github.com:fffffffee/fffffffee.github.io.git
+          destination-repo: git@gitee.com:fffffffee/silenceroad.git
+      - name: Deploy to Gitee
+        uses: yanglbme/gitee-pages-action@main
+        with:
+          gitee-username: fffffffee
+          gitee-password: ${{ secrets.GITEE_PASSWORD}}
+          gitee-repo: fffffffee/silenceroad
+          branch: main
