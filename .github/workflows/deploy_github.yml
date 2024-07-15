@@ -65,7 +65,7 @@ jobs:
     needs: build
     steps:
       - name: Sync to Gitee
-        uses: wearereqired/git-mirror-action@master
+        uses: wearerequired/git-mirror-action@v1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY}}
         with:
