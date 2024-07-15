@@ -61,6 +61,7 @@ jobs:
         uses: actions/deploy-pages@v4
   # sync to Gitee
   sync:
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Sync to Gitee
