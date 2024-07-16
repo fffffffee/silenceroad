@@ -65,7 +65,7 @@ jobs:
     needs: build
     steps:
       - name: Sync to Gtiee
-        uses: kun/hub-mirror-action@master 
+        uses: Yikun/hub-mirror-action@master 
         with:
           src: github/fffffffee
           des: gitee/fffffffee
