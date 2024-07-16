@@ -64,17 +64,18 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Sync to Gitee
-        uses: wearerequired/git-mirror-action@v1
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY}}
+      - name: Sync to Gtiee
+        uses: kun/hub-mirror-action@master 
         with:
-          source-repo: git@github.com:fffffffee/silenceroad.git
-          destination-repo: git@gitee.com:fffffffee/silenceroad.git
+          src: github/fffffffee
+          des: gitee/fffffffee
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          white_list: "silenceroad"
       - name: Deploy to Gitee
         uses: yanglbme/gitee-pages-action@main
         with:
           gitee-username: fffffffee
-          gitee-password: ${{ secrets.GITEE_PASSWORD}}
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
           gitee-repo: fffffffee/silenceroad
           branch: main
