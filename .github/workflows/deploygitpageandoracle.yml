@@ -59,23 +59,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  # sync to Gitee
-  sync:
+  
+  # Deploy to Oracle_Ubuntu
+  deployoracle:
     runs-on: ubuntu-latest
-    needs: build
     steps:
-      - name: Sync to Gtiee
-        uses: Yikun/hub-mirror-action@master 
-        with:
-          src: github/fffffffee
-          dst: gitee/fffffffee
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
-          white_list: "silenceroad"
-      - name: Deploy to Gitee
-        uses: yanglbme/gitee-pages-action@main
-        with:
-          gitee-username: fffffffee
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: fffffffee/silenceroad
-          branch: main
+      - uses: actions/checkout@v3
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@7.0.1
+        with: 
+          switches: -avzr --delete
+          path: .vitepress/dist
+          remote_path: usr/slienceroad/.vitepress/dist
+          remote_host: 132.226.155.2
+          remote_user: ubuntu
+          remote_key: ${{ secrets.ORACLEUBUNTU_KEY }}
