@@ -70,7 +70,7 @@ jobs:
         with: 
           switches: -avzr --delete
           path: .vitepress/dist
-          remote_path: silenceroad/.vitepress/dist
-          remote_host: 132.226.155.2
+          remote_path: silenceroad/
+          remote_host: 141.148.139.167
           remote_user: ubuntu
           remote_key: ${{ secrets.ORACLEUBUNTU_KEY }}
