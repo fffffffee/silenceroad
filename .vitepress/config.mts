@@ -21,17 +21,17 @@ export default defineConfig({
 	    text: '楞严经',
 	    collapsed: true,
 	    items: [
-              { text: '00', link: '/undergraduate/15SurangamaSutra/00' },
-              { text: '01', link: '/undergraduate/15SurangamaSutra/01' },
-              { text: '02', link: '/undergraduate/15SurangamaSutra/02' },
-              { text: '03', link: '/undergraduate/15SurangamaSutra/03' },
-              { text: '04', link: '/undergraduate/15SurangamaSutra/04' },
-              { text: '05', link: '/undergraduate/15SurangamaSutra/05' },
-              { text: '06', link: '/undergraduate/15SurangamaSutra/06' },
-              { text: '07', link: '/undergraduate/15SurangamaSutra/07' },
-              { text: '08', link: '/undergraduate/15SurangamaSutra/08' },
-              { text: '09', link: '/undergraduate/15SurangamaSutra/09' },
-              { text: '10', link: '/undergraduate/15SurangamaSutra/10' },
+              { text: '00', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 00' },
+              { text: '01', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 01' },
+              { text: '02', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 02' },
+              { text: '03', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 03' },
+              { text: '04', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 04' },
+              { text: '05', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 05' },
+              { text: '06', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 06' },
+              { text: '07', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 07' },
+              { text: '08', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 08' },
+              { text: '09', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 09' },
+              { text: '10', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 10' },
               { text: 'Runtime API Examples', link: '/api-examples' }
             ]
           }
