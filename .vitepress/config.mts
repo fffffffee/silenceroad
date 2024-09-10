@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '预科班', link: '/matriculation' },
-      { text: '本科班', link: '/undergraduate/15SurangamaSutra/01' },
+      { text: '本科班', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 00' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
