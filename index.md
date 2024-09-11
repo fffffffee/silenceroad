@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 楞严经
-      link: /undergraduate/15SurangamaSutra/01
+      link: /undergraduate/15SurangamaSutra/15 SurangamaSutra 00
     # - theme: alt
     #  text: API Examples
     #  link: /api-examples
