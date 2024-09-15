@@ -22,4 +22,6 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
+::: tip
+仅小院师兄内部复习使用，请勿转发小院外任何人。
+:::
