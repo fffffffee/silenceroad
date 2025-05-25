@@ -16,12 +16,15 @@ hero:
     - theme: brand
       text: 物不迁论 
       link: /undergraduate/17OntheStaticStateofThings/17 OntheStaticStateofThings 00
-    - theme: brand
+    - theme: alt
       text: 大乘百法明门论
       link: /undergraduate/18OneHundredDharmas/18 OneHundredDharmas 01
     - theme: brand
       text: 八识规矩颂
       link: /undergraduate/19VersesDelineatingtheEightConsciousnesses/19 VersesDelineatingtheEightConsciousnesses 00
+    - theme: alt 
+      text: 佛说无量寿经
+      link: /postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 01
    # - theme: brand
    #   text: 楞严经
    #   link: /undergraduate/15SurangamaSutra/15 SurangamaSutra 00

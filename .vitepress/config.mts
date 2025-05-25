@@ -11,6 +11,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '预科班', link: '/matriculation' },
       { text: '本科班', link: '/undergraduate/15SurangamaSutra/15 SurangamaSutra 00' },
+      { text: '研究班', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 01' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -206,6 +207,34 @@ export default defineConfig({
             ]
    	  },
        ],
+       '/postgraduate/':[
+	  {
+	    text: '佛说无量寿经',
+	    collapsed: true,
+	    items: [
+              { text: '01', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 01' },
+              { text: '02', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 02' },
+              { text: '03', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 03' },
+              { text: '04', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 04' },
+              { text: '05', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 05' },
+              { text: '06', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 06' },
+              { text: '07', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 07' },
+              { text: '08', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 08' },
+              { text: '09', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 09' },
+              { text: '10', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 10' },
+              { text: '11', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 11' },
+              { text: '12', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 12' },
+              { text: '13', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 13' },
+              { text: '14', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 14' },
+              { text: '15', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 15' },
+              { text: '16', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 16' },
+              { text: '17', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 17' },
+              { text: '18', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 18' },
+              { text: '19', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 19' },
+              { text: '20', link: '/postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 20' },
+	    ]
+           },
+	],
       },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
