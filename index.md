@@ -23,6 +23,9 @@ hero:
       text: 八识规矩颂
       link: /undergraduate/19VersesDelineatingtheEightConsciousnesses/19 VersesDelineatingtheEightConsciousnesses 00
     - theme: alt 
+      text: 净土源流 
+      link: /postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 00
+    - theme: brand 
       text: 佛说无量寿经
       link: /postgraduate/22TheAmitāyusSutra/22 The Amitāyus Sutra 01
    # - theme: brand

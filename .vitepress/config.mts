@@ -209,6 +209,34 @@ export default defineConfig({
        ],
        '/postgraduate/':[
 	  {
+	    text: '净土源流',
+	    collapsed: true,
+	    items: [
+              { text: '00', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 00' },
+              { text: '01', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 01' },
+              { text: '02', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 02' },
+              { text: '03', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 03' },
+              { text: '04', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 04' },
+              { text: '05', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 05' },
+              { text: '06', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 06' },
+              { text: '07', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 07' },
+              { text: '08', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 08' },
+              { text: '09', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 09' },
+              { text: '10', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 10' },
+              { text: '11', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 11' },
+              { text: '12', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 12' },
+              { text: '13', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 13' },
+              { text: '14', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 14' },
+              { text: '15', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 15' },
+              { text: '16', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 16' },
+              { text: '17', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 17' },
+              { text: '18', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 18' },
+              { text: '19', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 19' },
+              { text: '20', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 20' },
+              { text: '21', link: '/postgraduate/21TheHistoryofPureLandBuddhism/21 The History of Pure Land Buddhism 21' },
+	    ]
+	},
+	{
 	    text: '佛说无量寿经',
 	    collapsed: true,
 	    items: [
